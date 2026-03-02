@@ -1,5 +1,11 @@
 # 北京大学计算机基础能力手册
 
+![上游版本](https://img.shields.io/github/v/release/ZangXuanyi/getting-started-handout)
+![许可证](https://img.shields.io/badge/license-LPPL%201.3c-blue.svg)
+![下载量](https://img.shields.io/github/downloads/ZangXuanyi/getting-started-handout/total.svg?style=flat&color=success&label=Downloads)
+![星标](https://img.shields.io/github/stars/ZangXuanyi/getting-started-handout?style=social)
+![最后提交](https://img.shields.io/github/last-commit/ZangXuanyi/getting-started-handout?color=blue&label=Last%20commit&cacheSeconds=3600)
+
 ## 这是什么？
 
 本书名为《北京大学计算机基础能力手册》，共计约 25 万字，分为两部分。第一部分面向计算机新手，旨在帮助同学们对初高中普遍缺失的计算机知识进行快速的补充，涵盖了计算机基础知识、搜索和信息获取、编程环境的配置、LaTeX、Git 与 GitHub、SSH、Linux 基础等，力求实用、简洁、易懂；第二部分面向工程新手，涵盖了 C++ 和 Python 及其工程手段、实用主义编程、防御式编程、调试和测试等内容，可用于快速培训同学们的工程能力，为未来的科研与工作打下坚实的基础。
@@ -40,3 +46,15 @@ xelatex -shell-escape main.tex
 通知交流群（QQ群）：
 
 - 一群：1059423771
+
+## Star History
+
+如果您觉得本项目对您有帮助，欢迎给我一个star⭐，谢谢！
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ZangXuanyi/getting-started-handout&type=Date&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ZangXuanyi/getting-started-handout&type=Date" />
+  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ZangXuanyi/getting-started-handout&type=Date" />
+</picture>
+
+
