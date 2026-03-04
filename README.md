@@ -1,7 +1,7 @@
 # 北京大学计算机基础能力手册
 
 ![上游版本](https://img.shields.io/github/v/release/ZangXuanyi/getting-started-handout)
-![许可证](https://img.shields.io/badge/license-LPPL%201.3c-blue.svg)
+![许可证](https://img.shields.io/badge/license-MPL2.0%20-red.svg)
 ![下载量](https://img.shields.io/github/downloads/ZangXuanyi/getting-started-handout/total.svg?style=flat&color=success&label=Downloads)
 ![星标](https://img.shields.io/github/stars/ZangXuanyi/getting-started-handout?style=social)
 ![最后提交](https://img.shields.io/github/last-commit/ZangXuanyi/getting-started-handout?color=blue&label=Last%20commit&cacheSeconds=3600)
