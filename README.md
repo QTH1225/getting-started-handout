@@ -1,14 +1,8 @@
 # 北京大学计算机基础能力手册
 
-![上游版本](https://img.shields.io/github/v/release/ZangXuanyi/getting-started-handout)
-![许可证](https://img.shields.io/badge/license-MPL2.0%20-red.svg)
-![下载量](https://img.shields.io/github/downloads/ZangXuanyi/getting-started-handout/total.svg?style=flat&color=success&label=Downloads)
-![星标](https://img.shields.io/github/stars/ZangXuanyi/getting-started-handout?style=social)
-![最后提交](https://img.shields.io/github/last-commit/ZangXuanyi/getting-started-handout?color=blue&label=Last%20commit&cacheSeconds=3600)
-
 ## 这是什么？
 
-本书名为《北京大学计算机基础能力手册》，共计约 25 万字，分为两部分。第一部分面向计算机新手，旨在帮助同学们对初高中普遍缺失的计算机知识进行快速的补充，涵盖了计算机基础知识、搜索和信息获取、编程环境的配置、LaTeX、Git 与 GitHub、SSH、Linux 基础等，力求实用、简洁、易懂；第二部分面向工程新手，涵盖了 C++ 和 Python 及其工程手段、实用主义编程、防御式编程、调试和测试等内容，可用于快速培训同学们的工程能力，为未来的科研与工作打下坚实的基础。
+本书名为《北京大学计算机基础能力手册》，共计约 25 万字，旨在帮助同学们对初高中普遍缺失的计算机知识进行快速的补充，涵盖了计算机基础知识、搜索和信息获取、编程环境的配置、LaTeX、Git 与 GitHub、SSH、Linux 基础、C++ 和 Python 及其工程手段、实用主义编程、防御式编程、调试和测试等内容，可用于快速培训同学们的工程能力，为未来的科研与工作打下坚实的基础。
 
 ## 创作理由
 
@@ -16,18 +10,18 @@
 
 ## 获取手册
 
-如希望获取本手册，可以直接clone仓库并使用XeLaTeX编译源码。可以使用本地的编译器编译，也可以使用OverLeaf进行编译；从main分支编译的版本可以认为是稳定且错误较少的，从dev分支编译的版本一般是最新的，但是可能存在未完成的占位符，也有可能出现一些错误。
+如希望获取本手册，可以直接clone仓库并使用LuaLaTeX编译源码。可以使用本地的编译器编译，也可以使用OverLeaf进行编译；从main分支编译的版本可以认为是稳定且错误较少的，从dev分支编译的版本一般是最新的，但是可能存在未完成的占位符，也有可能出现一些错误。
 
-**特别说明**：由于本手册使用了`minted`宏包进行代码高亮，因此在本地编译时需要安装Python和Pygments，并且需要启用shell-escape选项，例如：
+**特别说明**：由于本手册使用了 `minted` 宏包进行代码高亮，因此在本地编译时需要安装Python和Pygments，并且需要启用shell-escape选项，例如：
 
 ```bash
-xelatex -shell-escape main.tex
+lualatex --shell-escape main.tex
 ```
 将以上命令重复执行三遍即可。
 
 如果懒得编译，可以在Release一节获取最新的更新内容。
 
-本项目采用MPL-2.0协议。
+本项目的代码采用MPL-2.0协议，文字内容采用CC-BY 4.0协议，详见LICENSE文件。
 
 ## Issue、讨论和贡献
 
@@ -37,24 +31,12 @@ xelatex -shell-escape main.tex
 
 如希望知道本项目作者计划干什么、在做什么以及最近做完了一些什么，可以去Project一节查看。
 
-如希望贡献，**请Fork dev分支并开PR；PR时需合并进入dev分支**。本项目的main分支同时充当release分支，因此常规状态下不会对其做出任何提交，只进行合并；作者只会在dev分支进行频繁的小更新。更大的更新应当开feature分支，并向dev分支合并。新的文件尽可能与已有的文件命名格式和项目架构相一致。不建议删除已有的内容，也不应涉及任何敏感话题等。
+如希望贡献，**请Fork `main` 分支并开PR；PR时需合并进入 `main` 分支**。本项目的 `main` 分支禁止提交。
 
-如果要开新的para或者chapter请先开Issue讨论。
+如果要开新的part或者chapter请先开Issue讨论。
 
 如果有翻译成其他语言的意向，也可以发Issue或Discussion讨论，但是本仓库**不会**接受任何仅翻译的PR。未来可能会有一个或者一些其他仓库来存储翻译文本。
 
 通知交流群（QQ群）：
 
-- 一群：1059423771
-
-## Star History
-
-如果您觉得本项目对您有帮助，欢迎给我一个star⭐，谢谢！
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ZangXuanyi/getting-started-handout&type=Date&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ZangXuanyi/getting-started-handout&type=Date" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ZangXuanyi/getting-started-handout&type=Date" />
-</picture>
-
-
+- #0：1059423771
