@@ -13,3 +13,8 @@
 # minted cache
 _minted/
 .directory
+
+# LaTeX build intermediates
+*.fls
+*.xdv
+*.fdb_latexmk
